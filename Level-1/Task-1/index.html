@@ -1,0 +1,77 @@
+<!-- Task-1: 
+Create a simple webpage with a heading, paragraph, and image using HTML and CSS.
+Build a basic form with a single input field and a submit button using HTML and CSS.
+Design and code a simple navigation menu with three links using HTML and CSS. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Web Development: Level-1,Task-1</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!-- Nav-bar -->
+            <nav id="navbar">
+
+                <figure id="logo-div">
+                    <a href="https://cognifyz.com/">
+                        <img id="logo" src="https://cognifyz.com/wp-content/uploads/2023/11/cognifyz-1.png"
+                            alt="Ct logo" />
+                    </a>
+                    <figcaption id="logo-caption">Where Data Meets Intelligence</figcaption>
+                </figure>
+
+                <ul id="nav-links">
+                    <a href="https://cognifyz.com/" target="_blank">
+                        <li class="nav-link">Home</li>
+                    </a>
+                    <a href="https://cognifyz.com/about-us/" target="_blank">
+                        <li class="nav-link">About us</li>
+                    </a>
+                    <a href="https://cognifyz.com/contact-us/" target="_blank">
+                        <li class="nav-link">Contact us</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- simple webpage with heading, paragraph, image-->
+        <div id="main-page">
+            <h1 id="heading">Cognifyz Technologies</h1>
+            <p id="sub-heading">Where Data Meets Intelligence</p>
+
+            <!--image with caption-->
+            <figure id="img-div">
+                <img id="image" src="./images.jpeg" alt="Ct Image" loading="lazy" />
+                <figcaption id="img-caption">Always ready to tackle situations</figcaption>
+            </figure>
+
+            <!-- basic form -->
+            <form id="form">
+                <p id="description">Want to be a part of our dynamic team?<br>Apply for Internships</p>
+                <input id="email-input" type="email" placeholder="Your Personal E-mail Address*" required>
+                <button id="submit-button">Apply</button>
+            </form>
+
+        </div>
+
+        <footer>
+            <p id="author">Made with ❤︎ by DSK</p>
+            <!-- ‬‬[U+202C] -->
+        </footer>
+
+    </div>
+</body>
+
+</html>
